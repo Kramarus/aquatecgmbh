@@ -11,6 +11,10 @@ section {
     padding: 32px;
 }
 
+body {
+    width: 100vw;
+}
+
 main {
     height: 90vh;
     /*background image from img/bg.webp with a central gradient and black semi-transparent overlay*/
@@ -142,6 +146,10 @@ li {
   /* icon prefix focus color */
   .input-field .prefix.active {
     color: $custom-color1;
+  }
+
+  .btn {
+    width: 300px;
   }
 
 
