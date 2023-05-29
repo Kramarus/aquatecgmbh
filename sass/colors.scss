@@ -1,0 +1,9 @@
+$custom-color1: #2196f3; /*#64b5f6*/
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    color: $custom-color1!important;
+}
+
+.custom-bg {
+    background-color: $custom-color1!important;
+}
