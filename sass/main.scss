@@ -1,4 +1,5 @@
 @import "./colors.scss";
+@import "./typography.scss";
 // @import "./dev.scss";
 
 * {
@@ -18,7 +19,7 @@ body {
 main {
     height: 90vh;
     /*background image from img/bg.webp with a central gradient and black semi-transparent overlay*/
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.webp") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg.webp") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -103,6 +104,7 @@ li {
 
   .brand-logo {
     height: 100%;
+    width: 240px!important;
   }
 
   #nav-mobile {
@@ -159,6 +161,15 @@ li {
   #legal {
     text-align: center;
   }
+
+  .hero-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 
 
 

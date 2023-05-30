@@ -5,6 +5,27 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .custom-bg {
   background-color: #2196f3 !important; }
 
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.6rem; }
+
+h3 {
+  font-size: 2.2rem; }
+
+h4 {
+  font-size: 1.8rem; }
+
+h5 {
+  font-size: 1.4rem; }
+
+h6 {
+  font-size: 1rem; }
+
+p, a {
+  font-size: 1rem; }
+
 * {
   box-sizing: border-box; }
 
@@ -17,7 +38,7 @@ body {
 main {
   height: 90vh;
   /*background image from img/bg.webp with a central gradient and black semi-transparent overlay*/
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.webp") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg.webp") no-repeat center center fixed;
   background-size: cover; }
 
 .bordered {
@@ -87,7 +108,8 @@ li {
   height: auto; }
 
 .brand-logo {
-  height: 100%; }
+  height: 100%;
+  width: 240px !important; }
 
 #nav-mobile {
   height: 100%; }
@@ -136,5 +158,11 @@ footer {
 
 #legal {
   text-align: center; }
+
+.hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
