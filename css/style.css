@@ -5,6 +5,9 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .custom-bg {
   background-color: #2196f3 !important; }
 
+#impressum h1, #impressum h2, #impressum h3, #impressum h4, #impressum h5, #impressum h6, #impressum p, #impressum a, #impressum li, #agb h1, #agb h2, #agb h3, #agb h4, #agb h5, #agb h6, #agb p, #agb a, #agb li, #datenschutz h1, #datenschutz h2, #datenschutz h3, #datenschutz h4, #datenschutz h5, #datenschutz h6, #datenschutz p, #datenschutz a, #datenschutz li {
+  color: white !important; }
+
 h1 {
   font-size: 3rem; }
 

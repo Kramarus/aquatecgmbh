@@ -7,3 +7,9 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .custom-bg {
     background-color: $custom-color1!important;
 }
+
+#impressum, #agb, #datenschutz {
+    h1, h2, h3, h4, h5, h6, p, a, li {
+        color: white!important;
+    }
+} 
